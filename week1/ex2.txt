@@ -1,0 +1,500 @@
+    5  ./gfp
+    6  ./gfp
+    7  clear
+    8  ls
+    9  cd ..
+   10  ls
+   11  rm -rf sporadic/
+   12  las
+   13  ls
+   14  ls
+   15  cd sporadic/
+   16  ls
+   17  clear
+   18  ls
+   19  make
+   20  ls
+   21  ./gfp
+   22  ./gfp
+   23  clear
+   24  ./gfp
+   25  ./gfp
+   26  ./gfp
+   27  ./gfp
+   28  make
+   29  ./gfp
+   30  make
+   31  ./gfp
+   32  ls
+   33  cd ..
+   34  ls
+   35  cd ExactTest_GFP/
+   36  ls
+   37  clear
+   38  ls
+   39  make
+   40  make -B
+   41  make
+   42  make -B
+   43  make -B
+   44  ls
+   45  clear
+   46  ls
+   47  ./gfp_test
+   48  ./gfp_test
+   49  ls
+   50  cd ..
+   51  ls
+   52  cd sporadic/
+   53  ls
+   54  clear
+   55  ls
+   56  make
+   57  ./gfp
+   58  clear
+   59  ls
+   60  clear
+   61  exit
+   62  .]
+   63  kill
+   64  clear
+   65  ls
+   66  cd p1_key/
+   67  ls
+   68  vim test_14th_task.cpp
+   69  ls
+   70  ls
+   71  make
+   72  ls
+   73  clear
+   74  ls
+   75  la
+   76  cd ..
+   77  ls
+   78  cd ..
+   79  ls
+   80  cd my-exact-sched-test-gfp/
+   81  ls
+   82  clear
+   83  ls
+   84  make
+   85  clear
+   86  make
+   87  ls
+   88  ./gfp_test_p1 
+   89  clear
+   90  clear
+   91  ./gfp_test_p1 
+   92  ./gfp_test_p1 
+   93  ды
+   94  ls
+   95  clear
+   96  ls
+   97  ls
+   98  cd internship2020/
+   99  ls
+  100  python3 test_set_reader.py 
+  101  python3 test_set_reader.py 
+  102  python3 test_set_reader.py 
+  103  python3 test_set_reader.py 
+  104  python3
+  105  python3 test_set_reader.py 
+  106  python3 test_set_reader.py 
+  107  python3 test_set_reader.py 
+  108  python3 test_set_reader.py 
+  109  python3 test_set_reader.py 
+  110  python3 test_set_reader.py 
+  111  python3 test_set_reader.py 
+  112  python3 test_set_reader.py 
+  113  FLEA
+  114  python3 test_set_reader.py 
+  115  ls
+  116  cd sporadic/
+  117  ./gfp
+  118  ls
+  119  cd internship2020/
+  120  ls
+  121  python3 test_set_reader.py 
+  122  python3 test_set_reader.py 
+  123  ls
+  124  ls
+  125  python3 test_set_reader.py 
+  126  python3 test_set_reader.py 
+  127  python3 test_set_reader.py 
+  128  python3 test_set_reader.py 
+  129  python3 test_set_reader.py 
+  130  python3 test_set_reader.py 
+  131  ls
+  132  cd test_set
+  133  cd test_sets
+  134  ls
+  135  rm .DS_Store
+  136  ls
+  137  python3 test_set_reader.py 
+  138  cd ..
+  139  python3 test_set_reader.py 
+  140  python3 test_set_reader.py 
+  141  python3 test_set_reader.py 
+  142  python3 test_set_reader.py 
+  143  python3 test_set_reader.py 
+  144  ls
+  145  cd internship2020/
+  146  ls
+  147  cd test_sets
+  148  ls
+  149  cd ..
+  150  ls
+  151  python3 test_set_reader.py 
+  152  clear
+  153  ls
+  154  python3 test_set_reader.py 
+  155  clear
+  156  ls
+  157  cd test_set
+  158  cd test_sets
+  159  touch temp.txt
+  160  clear
+  161  ls
+  162  cd ..
+  163  ls
+  164  python3 test_set_reader.py
+  165  python3 test_set_reader.py
+  166  ls
+  167  cd test_sets
+  168  ls
+  169  rm .DS_Store
+  170  ls
+  171  python3 test_set_reader.py
+  172  cd ..
+  173  python3 test_set_reader.py
+  174  python3 test_set_reader.py
+  175  python3 test_set_reader.py
+  176  ls
+  177  cd plitka/
+  178  ls
+  179  mkdir plitka-backend
+  180  cd plitka-backend/
+  181  ls
+  182  clear
+  183  cd
+  184  cd plitka/
+  185  ls
+  186  cd plitka-backend/
+  187  cd ..
+  188  rm -rf plitka-backend/
+  189  ls
+  190  exit
+  191  ls
+  192  psql
+  193  psql postgres
+  194  ls -l
+  195  rm -rf /usr/local/var/postgres && initdb /usr/local/var/postgres -E utf8
+  196  psql postgres
+  197  psql
+  198  sudo service postgresql start
+  199  pg_lsclusters
+  200  brew postgresql-upgrade-database
+  201  psql
+  202  brew uninstall postgresql
+  203  brew doctor
+  204  brew cleanup
+  205  rm -r /usr/local/var/postgres
+  206  rm -r /Users/kurmazov/Library/Application\ Support/Postgres
+  207  ls
+  208  cd Library/
+  209  ls
+  210  cd Application\ S
+  211  cd Applications
+  212  ls
+  213  cd Application\ Support/
+  214  ls
+  215  cd
+  216  ls
+  217  brew install postgres
+  218  brew install postgres
+  219  brew services start postgresql
+  220  createdb
+  221  psql
+  222  psql
+  223   . /Users/kurmazov/.local/share/virtualenvs/plitka-backend-oZXG6tdM/bin/activate
+  224  pip install django
+  225  django-admin startproject .
+  226  django-admin startproject plitka-backend .
+  227  django-admin startproject plitka .
+  228  pip install psycopg2
+  229  pip install psycopg2-binary
+  230  pip freeze
+  231  psql 
+  232  ls
+  233  python manage.py migrate
+  234  python manage.py runserver
+  235  ls
+  236  cd plitka/
+  237  ls
+  238  cd plitka-backend/
+  239  ls
+  240  python manage.py createsuperuser
+  241  pipenv shell
+  242  clank
+  243  clear
+  244  clang
+  245  clear
+  246  g++
+  247  gcc
+  248  clear
+  249  gcc
+  250  g++
+  251  clear
+  252   . /Users/kurmazov/.local/share/virtualenvs/plitka-backend-oZXG6tdM/bin/activate
+  253  env
+  254  python manage.py runserver
+  255  pip install dj_database_url
+  256  python manage.py runserver
+  257  touch .gitignore
+  258  touch Procfile
+  259  pip freeze
+  260  pipenv lock
+  261  pip freeze > requirements.txt
+  262  git init
+  263  touch README.md
+  264  git status
+  265  git status
+  266  python manage.py runserver
+  267  git status
+  268  git add .
+  269  git commit -m "Initial commit"
+  270  git remote add origin https://github.com/AKurmazov/plitka-server.git
+  271  git push -u origin master
+  272  heroku login
+  273  heroku git:remote -a plitka-bend
+  274  git push heroku master
+  275  heroku logs --tail
+  276  pip install gunicorn
+  277  pipenv lock
+  278  pip freeze > requirements.txt
+  279  git status
+  280  git add .
+  281  git commit -m "Add gunicorn to the requirements"
+  282  git push heroku master
+  283  heroku logs --tail
+  284  pipenv help
+  285  pipenv --help
+  286  pipenv install requirements.txt
+  287  pipenv install -r requirements.txt
+  288  git status
+  289  git add .
+  290  git commit -m "Make pipenv be up-to-date with the requirements"
+  291  git push heroku master
+  292  heroku config:set DISABLE_COLLECTSTATIC=1
+  293  heroku config:set DISABLE_COLLECTSTATIC=1
+  294  git push heroku master
+  295  git status
+  296  got add .
+  297  git commit -m "Fix allowed hosts typo"
+  298  git add .
+  299  git status
+  300  git commit -m "Fix allowed hosts typo"
+  301  git push heroku master
+  302  ls
+  303  cd donesem
+  304  ls
+  305  git status
+  306  exit
+  307  python
+  308  python3
+  309  python3
+  310  python3
+  311  ls
+  312  cd Desktop/
+  313  ls
+  314  cd ..
+  315  ;s
+  316  ls
+  317  cd internship2020/
+  318  ls
+  319  python3 test_set_reader.py 
+  320  python3 test_set_reader.py 
+  321  python3 test_set_reader.py 
+  322  python3 test_set_reader.py 
+  323  python3 test_set_reader.py 
+  324  python3 test_set_reader.py 
+  325  python3 test_set_reader.py 
+  326  python3 test_set_reader.py 
+  327  python3 test_set_reader.py 
+  328  ls
+  329  cd Downloads/
+  330  ls
+  331  python3 ibc_4.py 
+  332  ls
+  333  cd Desktop/
+  334  ls
+  335  python3 test.py
+  336  python3 test.py
+  337  python3 test.py
+  338  python3 test.py
+  339  python3 test.py
+  340  python3 test.py
+  341  python3 test.py
+  342  ls
+  343  cd donesem
+  344  ls
+  345  git status
+  346  git remote -v
+  347  git remote --version
+  348  git remote help
+  349  git help remote
+  350  exit
+  351  ls
+  352  cd plitka/
+  353  ls
+  354  cd plitka-backend/
+  355  ls
+  356  cd ..
+  357  cd ..
+  358  cd Documents/
+  359  ls
+  360  cd ..
+  361  ls
+  362  cd Don
+  363  cd Downloads/
+  364  ls
+  365  ls
+  366  cd hoteluni_bot/
+  367  ls
+  368  git status
+  369  git pull 
+  370  git status
+  371  cat 
+  372  ls
+  373  cat manage.py
+  374  touch test.txt
+  375  cat test.txt
+  376  ls
+  377  vim test.txt
+  378  touch test1.txt
+  379  vim test1.txt
+  380  cat test.txt test1.txt > test2.txt
+  381  vim test2.txt
+  382  ls
+  383  rm -f test.txt 
+  384  rm -f test1.txt
+  385  rm test2.txt
+  386  ls
+  387  whoami
+  388  hostme
+  389  hostname
+  390  ls
+  391  man sporadic
+  392  man whoami
+  393  man whoami
+  394  man man
+  395  man --help
+  396  q
+  397  clear
+  398  ls
+  399  cat password.py
+  400  grep __main__ password.py
+  401  grep password.py
+  402  clear
+  403  ls > list.txt
+  404  ls
+  405  cat list
+  406  cat list.txt
+  407  rm -f list.txt
+  408  ls
+  409  clara
+  410  clear
+  411  ls
+  412  head password.py
+  413  ls
+  414  cd sporadic/
+  415  ls
+  416  cd ..
+  417  ls
+  418  cd plitka
+  419  ls
+  420  cd plitka-scripts/
+  421  ls
+  422  head roads_tat.json 
+  423  ls
+  424  clear
+  425  cd ..
+  426  cd ..
+  427  ls
+  428  less password.py 
+  429  pwd
+  430  jobs
+  431  gedit file.txt
+  432  ls
+  433  mkdir os
+  434  ls
+  435  cd os
+  436  mkdir week1
+  437  cd week1
+  438  ls
+  439  pwd
+  440  ls ~/usr/bin 
+  441  ls ~usr/bin 
+  442  ls ~/usr/bin 
+  443  ls ~/usr/bin/ 
+  444  cd ..
+  445  ls
+  446  cd ..
+  447  ls
+  448  cd ..
+  449  ls
+  450  cd ..
+  451  ls
+  452  cd Users
+  453  cd kurmazov
+  454  cd os
+  455  cd weeks
+  456  cd week1
+  457  ls
+  458  ls /usr/bin
+  459  ls -l /usr/bin/"gcc" > ex1.txt 
+  460  cat ex1.txt
+  461  ls -l /usr/bin/"g++" > ex1.txt 
+  462  cat ex1.txt
+  463  cd /usr/bin
+  464  ls
+  465  cd gcc
+  466  cd ..
+  467  cd ..
+  468  cd Users
+  469  cd kurmazov/
+  470  cd os
+  471  cd os
+  472  ls
+  473  cd week1
+  474  ls
+  475  ls -l /usr/bin/"lwp" > ex1.txt 
+  476  clear
+  477  ls
+  478  ls -l /usr/bin/"g++" > ex1.txt 
+  479  ls
+  480  cat ex1.txt
+  481  cd /usr/bin 
+  482  ls
+  483  g++
+  484  cd g++ 
+  485  ls
+  486  cd ..
+  487  cd ..
+  488  ls
+  489  cd Users
+  490  ls
+  491  cd kurmazov/
+  492  ls
+  493  ls
+  494  cd os
+  495  cd week1
+  496  ls
+  497  rm ex1.txt
+  498  ls
+  499  exit
+  500  ls
+  501  cd os
+  502  cd week1
+  503  ls
+  504  history > ex2.txt

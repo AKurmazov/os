@@ -1,0 +1,26 @@
+# I ran the following shell command on my MacOS Catalina v10.15.6
+# % vm_stat > ex1.txt
+
+Mach Virtual Memory Statistics: (page size of 4096 bytes)
+Pages free:                               15815.
+Pages active:                            449332.
+Pages inactive:                          437779.
+Pages speculative:                        11359.
+Pages throttled:                              0.
+Pages wired down:                        763425.
+Pages purgeable:                           2160.
+"Translation faults":                4618853591.
+Pages copy-on-write:                   70046252.
+Pages zero filled:                   1897469497.
+Pages reactivated:                    236284230.
+Pages purged:                         103445815.
+File-backed pages:                       235351.
+Anonymous pages:                         663119.
+Pages stored in compressor:             2277114.
+Pages occupied by compressor:            419282.
+Decompressions:                       255982931.
+Compressions:                         355585437.
+Pageins:                              110717735.
+Pageouts:                               1256268.
+Swapins:                               63043678.
+Swapouts:                              66161831.

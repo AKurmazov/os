@@ -1,0 +1,11 @@
+As we increase the size, hit/miss ratio also increases.
+(For the given input data)
+
+We would achieve the maximum hit/miss ratio in case if the import was consisted of
+the same number repeated over and over again. For example, if the input was
+> k k k k ... k — repeated n times, then there would be exactly 1 miss (first one),
+and (n - 1) misses, thus the hit/miss ratio would be (n - 1)
+
+On the other hand, if the import numbers never repeated themselves, then the
+hit/miss ratio would be the minimum — zero. For example, in this case:
+> 1 2 3 4 ... n — no hits, and n misses. Hit/miss ratio: 0.0

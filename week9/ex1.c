@@ -19,13 +19,7 @@ int main() {
     memset(hm, 0, size);
 
     int page_num;
-    int count = 0;
     while (fscanf(input_file, "%d", &page_num) != EOF) {
-        count++;
-        if (count > size) {
-            break;
-        }
-
         int is_hit = 0;
         for (int i = 0; i < size; ++i) {
             if (page_num == frames[i]) {

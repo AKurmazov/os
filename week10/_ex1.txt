@@ -1,0 +1,14 @@
+kurmazov@MacBook-Pro-Aleksandr week10 % touch _ex1.txt
+kurmazov@MacBook-Pro-Aleksandr week10 % ln _ex1.txt _ex1_1.txt
+kurmazov@MacBook-Pro-Aleksandr week10 % ln _ex1.txt _ex1_2.txt
+kurmazov@MacBook-Pro-Aleksandr week10 % ls -i _ex1.txt
+34216529 _ex1.txt
+kurmazov@MacBook-Pro-Aleksandr week10 % ls -i _ex1_1.txt
+34216529 _ex1_1.txt
+kurmazov@MacBook-Pro-Aleksandr week10 % ls -i _ex1_2.txt
+34216529 _ex1_2.txt
+
+So the links to the files are the same:
+34216529 _ex1.txt
+34216529 _ex1_1.txt
+34216529 _ex1_2.txt

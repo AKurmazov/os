@@ -1,0 +1,9 @@
+kurmazov@MacBook-Pro-Aleksandr week10 % touch ../week1/file.txt
+kurmazov@MacBook-Pro-Aleksandr week10 % ln ../week1/file.txt _ex2.txt
+kurmazov@MacBook-Pro-Aleksandr week10 % ls -i ../week1/file.txt
+34216758 ../week1/file.txt
+kurmazov@MacBook-Pro-Aleksandr week10 % find .. -inum 34216758
+../week1/file.txt
+../week10/_ex2.txt
+kurmazov@MacBook-Pro-Aleksandr week10 % find .. -inum 34216758 -exec rm {} \;
+kurmazov@MacBook-Pro-Aleksandr week10 % find .. -inum 34216758

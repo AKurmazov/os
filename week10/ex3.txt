@@ -1,0 +1,40 @@
+kurmazov@MacBook-Pro-Aleksandr week10 % touch _ex3.txt
+kurmazov@MacBook-Pro-Aleksandr week10 % ls -l
+total 32
+-rw-r--r--  3 kurmazov  staff  506 Oct 20 13:58 _ex1.txt
+-rw-r--r--  3 kurmazov  staff  506 Oct 20 13:58 _ex1_1.txt
+-rw-r--r--  3 kurmazov  staff  506 Oct 20 13:58 _ex1_2.txt
+-rw-r--r--  1 kurmazov  staff    0 Oct 20 14:11 _ex3.txt
+-rw-r--r--  1 kurmazov  staff    0 Oct 20 13:58 ex1.txt
+-rw-r--r--  1 kurmazov  staff  465 Oct 20 14:04 ex2.txt
+kurmazov@MacBook-Pro-Aleksandr week10 % chmod a-x _ex3.txt
+kurmazov@MacBook-Pro-Aleksandr week10 % ls -l
+total 32
+-rw-r--r--  3 kurmazov  staff  506 Oct 20 13:58 _ex1.txt
+-rw-r--r--  3 kurmazov  staff  506 Oct 20 13:58 _ex1_1.txt
+-rw-r--r--  3 kurmazov  staff  506 Oct 20 13:58 _ex1_2.txt
+-rw-r--r--  1 kurmazov  staff    0 Oct 20 14:11 _ex3.txt
+-rw-r--r--  1 kurmazov  staff    0 Oct 20 13:58 ex1.txt
+-rw-r--r--  1 kurmazov  staff  465 Oct 20 14:04 ex2.txt
+kurmazov@MacBook-Pro-Aleksandr week10 % chmod uo=rwx _ex3.txt
+kurmazov@MacBook-Pro-Aleksandr week10 % ls -l
+total 32
+-rw-r--r--  3 kurmazov  staff  506 Oct 20 13:58 _ex1.txt
+-rw-r--r--  3 kurmazov  staff  506 Oct 20 13:58 _ex1_1.txt
+-rw-r--r--  3 kurmazov  staff  506 Oct 20 13:58 _ex1_2.txt
+-rwxr--rwx  1 kurmazov  staff    0 Oct 20 14:11 _ex3.txt
+-rw-r--r--  1 kurmazov  staff    0 Oct 20 13:58 ex1.txt
+-rw-r--r--  1 kurmazov  staff  465 Oct 20 14:04 ex2.txt
+kurmazov@MacBook-Pro-Aleksandr week10 % chmod g=u _ex3.txt
+kurmazov@MacBook-Pro-Aleksandr week10 % ls -l
+total 32
+-rw-r--r--  3 kurmazov  staff  506 Oct 20 13:58 _ex1.txt
+-rw-r--r--  3 kurmazov  staff  506 Oct 20 13:58 _ex1_1.txt
+-rw-r--r--  3 kurmazov  staff  506 Oct 20 13:58 _ex1_2.txt
+-rwxrwxrwx  1 kurmazov  staff    0 Oct 20 14:11 _ex3.txt
+-rw-r--r--  1 kurmazov  staff    0 Oct 20 13:58 ex1.txt
+-rw-r--r--  1 kurmazov  staff  465 Oct 20 14:04 ex2.txt
+
+660 means that an owner and group members have read/write permissions. Others have no permissions
+775 means that an owner and group members have all permissions, and others can only read and execute
+777 means that everybody can read, write, and execute (all permissions)

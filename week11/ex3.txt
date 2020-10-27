@@ -1,0 +1,5 @@
+Since stdout is line buffered, in the second code snippet the buffer
+is going to be flushed before the fork instruction is called, thus
+we see only one 'Hello' being printed. On the other hand, in the first
+snippet 'Hello' is printed twice due to the reason that a line is not
+switched (and the buffer is not flushed) before forking.

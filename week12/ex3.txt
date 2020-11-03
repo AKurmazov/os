@@ -1,0 +1,25 @@
+**** Without buffering and O_SYNC flag
+kurmazov@MacBook-Pro-Aleksandr week12 % gcc -o copy copy.c
+kurmazov@MacBook-Pro-Aleksandr week12 % time ./copy ex2.c test.c
+./copy ex2.c test.c  0.00s user 0.00s system 0% cpu 0.343 total
+
+**** With buffering and without O_SYNC flag
+kurmazov@MacBook-Pro-Aleksandr week12 % gcc -o copy copy.c -DBUF_SIZE=64
+kurmazov@MacBook-Pro-Aleksandr week12 % time ./copy ex2.c test.c
+./copy ex2.c test.c  0.00s user 0.00s system 1% cpu 0.198 total
+
+**** Without buffering and with O_SYNC flag
+kurmazov@MacBook-Pro-Aleksandr week12 % gcc -o copy copy.c
+kurmazov@MacBook-Pro-Aleksandr week12 % time ./copy ex2.c test.c
+./copy ex2.c test.c  0.00s user 0.00s system 48% cpu 0.006 total
+
+**** With buffering and with O_SYNC flag
+kurmazov@MacBook-Pro-Aleksandr week12 % gcc -o copy copy.c -DBUF_SIZE=64
+kurmazov@MacBook-Pro-Aleksandr week12 % time ./copy ex2.c test.c
+./copy ex2.c test.c  0.00s user 0.00s system 0% cpu 0.346 total
+
+My experiments have shown that increasing the buffering size leads to execution
+time increasing. On the other hand, O_SYNC flag enabled makes the program run
+faster. All in all, no buffering + O_SYNC flag is the best in terms of latency
+way to run the code.
+
